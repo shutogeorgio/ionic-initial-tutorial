@@ -7,15 +7,15 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
-  text = "Default statement";
+  text = 'Default statement';
 
   constructor() {}
 
   onChangeText() {
-    if (this.text == "changed") {
-      this.text = "chstatementanged";
+    if (this.text === 'changed') {
+      this.text = 'chstatementanged';
     } else {
-      this.text = "changed";
+      this.text = 'changed';
     }
   }
 }
